@@ -16,7 +16,7 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["Desenvolvedor", "Front-end", "FullStack"],
+         strings:["Desenvolvedor Front-end", "FullStack", "Back-end"],
          typeSpeed:100,
          backSpeed:60,
          loop:true
