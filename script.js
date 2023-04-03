@@ -16,18 +16,12 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["Desenvolvedor Front-end", "FullStack", "Back-end"],
+         strings:["Desenvolvedor Front-end"],
          typeSpeed:100,
          backSpeed:60,
          loop:true
      });
-    //  var typed = new Typed(".typing-2", {
-    //     strings:["Desenvolvedor", "Front-end", "FullStack"],
-    //     typeSpeed:100,
-    //     backSpeed:60,
-    //     loop:true
-    // });
-
+   
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
