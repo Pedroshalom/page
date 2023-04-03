@@ -206,8 +206,8 @@ section .title::after{
 }
 .about .about-content .right p{
     text-align: justify;
-    word-spacing: -2px;
-    line-height: 30px;
+    /* word-spacing: -2px; */
+    /* line-height: 30px; */
 }
 .about .about-content .right a{
     display: inline-block;
@@ -533,6 +533,11 @@ footer span a:hover{
         width: 350px;
         height: 350px;
     }
+
+    .about .about-content .right p{ 
+    word-spacing: -0.1rem;
+   /* line-height: 30px; */
+} 
 }
 @media (max-width: 991px){
     .navbar .max-width{
