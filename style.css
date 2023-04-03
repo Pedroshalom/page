@@ -193,16 +193,21 @@ section .title::after{
 .about .about-content .right{
     width: 55%;
 }
+
+/* mexer aqui no p */
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
 }
+
 .about .about-content .right .text span{
     color: #00804b;
 }
 .about .about-content .right p{
     text-align: justify;
+    word-spacing: -2px;
+    line-height: 30px;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -408,6 +413,11 @@ section .title::after{
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
+
+.icones {
+    size: 20px;
+}
+
 .contact .contact-content{
     align-items: flex-start;
 }
@@ -590,6 +600,13 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+
+    .icones {
+        height: 80px;
+        width: 40px;
+    }
+    
+
     footer{
         margin-top: 15px;
     }
