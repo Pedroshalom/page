@@ -289,6 +289,7 @@ section .title::after{
 }
 .skills .skills-content .left p{
     text-align: justify;
+    color: red;
 }
 .skills .skills-content .left a{
     display: inline-block;
