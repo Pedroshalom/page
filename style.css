@@ -8,6 +8,12 @@
 html{
     scroll-behavior: smooth;
 }
+
+span {
+    color: #00804b;
+    font-size: 20px;
+}
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
