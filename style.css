@@ -434,6 +434,12 @@ section .title::after{
     size: 20px;
 }
 
+.logos {
+    height: 30px;
+    width: 30px;
+}
+
+
 .contact .contact-content{
     align-items: flex-start;
 }
@@ -632,7 +638,13 @@ footer span a:hover{
 
     .icones {
         height: 80px;
-        width: 40px;
+        width: 80px;
+        background-color: red;
+    }
+
+    .logos {
+        height: 80px;
+        width: 80px;
     }
     
 
