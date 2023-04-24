@@ -26,6 +26,13 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
+
+
+    $('.menu').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('li').toggleClass("active");
+    });
+    
     $('.carousel').owlCarousel({
         margin:20,
         loop:true,
@@ -47,3 +54,4 @@ $(document).ready(function(){
         }
     });
 });
+
