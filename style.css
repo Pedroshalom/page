@@ -430,10 +430,8 @@ section .title::after{
     width: calc(50% - 30px);
 }
 
-.icones {
-    size: 20px;
-}
 
+    /* tamanho da logo tela de computador */
 .logos {
     height: 30px;
     width: 30px;
@@ -636,12 +634,7 @@ footer span a:hover{
         margin-bottom: 35px;
     }
 
-    .icones {
-        height: 80px;
-        width: 80px;
-        background-color: red;
-    }
-
+    /* tamanho da logo em mobile */
     .logos {
         height: 50px;
         width: 50px;
