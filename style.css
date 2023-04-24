@@ -232,6 +232,14 @@ section .title::after{
     color: #00804b;
     background: none;
 }
+
+.home  img{
+    width: 310px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 146px;
+}
+
 .about .about-content .left img{
     width: 400px;
     height: 400px;
