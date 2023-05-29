@@ -16,9 +16,7 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["Desenvolvedor Front-end",
-         " Habilidades em: JavaScript, React.js"
-        ],
+         strings:["Desenvolvedor Front-end"],
          typeSpeed:100,
          backSpeed:60,
          loop:true
