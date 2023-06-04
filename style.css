@@ -80,6 +80,13 @@ span {
 .home .max-width{
     margin: auto 0 auto 40px;
 }
+
+.im {
+    border: solid 5px red;
+    margin-left: 700px;
+    border-radius: 0;
+}
+
 .home .home-content .text-1{
     font-size: 27px;
     margin-left: 00px;
@@ -98,6 +105,8 @@ span {
     font-weight: 500;
     font-size: 20px;
 }
+
+
 .home .home-content a{
     display: inline-block;
     background: #00804b;
@@ -191,11 +200,7 @@ section .title::after{
     justify-content: space-between;
 }
 
-/*  sessão sobre  */
 
-/* .about .title::after{
-    content: "Quem sou eu";
-} */
 .about .about-content .left{
     width: 45%;
 }
@@ -215,8 +220,6 @@ section .title::after{
 }
 .about .about-content .right p{
     text-align: justify;
-    /* word-spacing: -2px; */
-    /* line-height: 30px; */
 }
 .about .about-content .right a{
     display: inline-block;
@@ -291,10 +294,7 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-/*  sessão Minhas Habilidades */
-/* .skills .title::after{
-    content: "Que faço";
-} */
+
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
